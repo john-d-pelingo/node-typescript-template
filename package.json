@@ -24,6 +24,11 @@
     "template"
   ],
   "prettier": "@jdp-dev/prettier-config",
+  "standard-version": {
+    "scripts": {
+      "prerelease": "yarn build"
+    }
+  },
   "main": "./build/index.js",
   "scripts": {
     "--DEVELOPMENT--": "echo \"--DEVELOPMENT--\" && exit 1",
