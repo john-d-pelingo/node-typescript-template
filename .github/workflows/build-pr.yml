@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Test GitHub Action
+    name: Test Application
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -25,7 +25,7 @@ jobs:
         run: yarn test
 
   build-pr:
-    name: Build GitHub Action
+    name: Build Application
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
