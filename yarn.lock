@@ -182,10 +182,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@jdp-dev/commitlint-config@^0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@jdp-dev/commitlint-config/-/commitlint-config-0.0.11.tgz#36bbfd55038229f550bddcb82d191c0195cb6417"
-  integrity sha512-6nyhG6k7/MsXtLEXnH0YAxlh7DUBiO27xGx46utNeBmPSIQHHni9KzetNdEn0M1uJ1Au/dDRTI2Ms0wOiQ0ejw==
+"@jdp-dev/commitlint-config@^0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@jdp-dev/commitlint-config/-/commitlint-config-0.0.14.tgz#721ff03b01562640121792842faa19153c18644d"
+  integrity sha512-Mj68A46NACxHuSa5tn9gCFf1RVN3e4h0YM3v3zYBNLAI6bja0DqQ0xA2NdkRZmaQ8DE+TVYFTUMxh0QRTIAG2A==
 
 "@jdp-dev/eslint-config-typescript@^0.0.11":
   version "0.0.11"
