@@ -53,7 +53,7 @@
     "@jdp-dev/eslint-config-typescript": "^0.0.14",
     "@jdp-dev/prettier-config": "^0.0.14",
     "@jdp-dev/tsconfig": "^0.0.14",
-    "@types/node": "^14.14.10",
+    "@types/node": "^14.14.20",
     "@typescript-eslint/eslint-plugin": "^4.9.0",
     "@typescript-eslint/parser": "^4.9.0",
     "eslint": "^7.14.0",
