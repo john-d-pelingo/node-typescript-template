@@ -1,3 +1,5 @@
-const fullName = 'John Darryl Pelingo'
+const greet = (name: string): void => {
+  console.log(`Hello, ${name}`)
+}
 
-console.log(`Hello, ${fullName}`)
+greet('John Darryl Pelingo')
