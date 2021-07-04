@@ -48,25 +48,25 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^12.1.1",
+    "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "@jdp-dev/commitlint-config": "^0.0.18",
     "@jdp-dev/eslint-config-typescript": "^0.0.18",
     "@jdp-dev/prettier-config": "^0.0.18",
     "@jdp-dev/tsconfig": "^0.0.18",
     "@types/node": "^16.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
     "@typescript-eslint/parser": "^4.28.1",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.23.4",
     "husky": "7",
     "lint-staged": "^11.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
     "standard-version": "^9.3.0",
-    "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.4"
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   }
 }
