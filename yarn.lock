@@ -1003,14 +1003,6 @@ dateformat@^3.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-dateformat@~1.0.4-1.2.3:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-1.0.12.tgz#9f124b67594c937ff706932e4a642cca8dbbfee9"
-  integrity sha1-nxJLZ1lMk3/3BpMuSmQsyo27/uk=
-  dependencies:
-    get-stdin "^4.0.1"
-    meow "^3.3.0"
-
 debug@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -1882,13 +1874,6 @@ is-callable@^1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/is-callable/-/is-callable-1.2.3.tgz#8b1e0500b73a1d76c70487636f368e519de8db8e"
   integrity sha512-J1DcMe8UYTBSrKezuIUTUwjXsho29693unXM2YhJUTR2txK/eG47bvNa/wipPFmZFgr/N6f1GA66dv0mEyTIyQ==
-
-is-core-module@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
-  integrity sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==
-  dependencies:
-    has "^1.0.3"
 
 is-core-module@^2.2.0, is-core-module@^2.4.0:
   version "2.4.0"
@@ -2989,15 +2974,7 @@ resolve-global@1.0.0, resolve-global@^1.0.0:
   dependencies:
     global-dirs "^0.1.1"
 
-resolve@^1.0.0, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.13.1, resolve@^1.17.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.19.0.tgz#1af5bf630409734a067cae29318aac7fa29a267c"
-  integrity sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==
-  dependencies:
-    is-core-module "^2.1.0"
-    path-parse "^1.0.6"
-
-resolve@^1.20.0:
+resolve@^1.0.0, resolve@^1.1.6, resolve@^1.10.0, resolve@^1.13.1, resolve@^1.17.0, resolve@^1.20.0:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -3442,13 +3419,12 @@ trim-off-newlines@^1.0.0:
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
 
-ts-node-dev@^1.1.6:
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.1.6.tgz#ee2113718cb5a92c1c8f4229123ad6afbeba01f8"
-  integrity sha512-RTUi7mHMNQospArGz07KiraQcdgUVNXKsgO2HAi7FoiyPMdTDqdniB6K1dqyaIxT7c9v/VpSbfBZPS6uVpaFLQ==
+ts-node-dev@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.1.8.tgz#95520d8ab9d45fffa854d6668e2f8f9286241066"
+  integrity sha512-Q/m3vEwzYwLZKmV6/0VlFxcZzVV/xcgOt+Tx/VjaaRHyiBcFlV0541yrT09QjzzCxlDZ34OzKjrFAynlmtflEg==
   dependencies:
     chokidar "^3.5.1"
-    dateformat "~1.0.4-1.2.3"
     dynamic-dedupe "^0.3.0"
     minimist "^1.2.5"
     mkdirp "^1.0.4"
