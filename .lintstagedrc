@@ -2,7 +2,7 @@
   "src/**/*.{js,ts}": [
     "eslint --fix"
   ],
-  "*.{js,ts,tsx,json,yml,yaml,css,html}": [
+  "*.{js,ts,json,yml,yaml,css,html}": [
     "prettier --write"
   ]
 }
