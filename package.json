@@ -48,7 +48,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^16.0.2",
+    "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^16.0.0",
     "@jdp-dev/commitlint-config": "^1.2.0",
     "@jdp-dev/eslint-config-typescript": "^1.2.0",
